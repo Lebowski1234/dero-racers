@@ -1,8 +1,8 @@
-NOTE - Source code and binaries will be uploaded in the next few hours!!! this readme is a work in progress. Stay tuned...
-
 # Dero Racers
 
 Dero Racers is a Blockchain based game written for the Dero Stargate competition! The game involves buying and selling cars for (testnet) Dero, and racing for points and a hallowed position on the game leaderboard!
+
+[https://github.com/Lebowski1234/dero-racers/raw/master/dero-racers-screenshot-50.png]
 
 
 ## Requirements
@@ -10,6 +10,12 @@ Dero Racers is a Blockchain based game written for the Dero Stargate competition
 The game is designed to run on a 64 bit Windows or Linux PC, but it should also run on Mac (you will need to build from source, see below). 
 
 All testing was done on Windows 7 and Ubuntu 16.04. 
+
+
+## Binaries
+
+* [https://github.com/Lebowski1234/dero-racers/raw/master/Binaries/DeroRacers-Linux64.tar.gz](Dero Racers Linux 64)
+* [https://github.com/Lebowski1234/dero-racers/raw/master/Binaries/DeroRacers-Win64.rar](Dero Racers Windows 64)
 
 
 ## Quick Start
