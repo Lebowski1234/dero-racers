@@ -1,0 +1,6 @@
+C:\Ben Dec 2018 onwards\Cryptocurrency\Dero stargate\Dero Racers\.mono\temp\obj\Tools\Dero Racers.csprojAssemblyReference.cache
+C:\Ben Dec 2018 onwards\Cryptocurrency\Dero stargate\Dero Racers\.mono\temp\obj\Tools\Dero Racers.csproj.CoreCompileInputs.cache
+C:\Ben Dec 2018 onwards\Cryptocurrency\Dero stargate\Dero Racers\.mono\temp\bin\Tools\Dero Racers.dll
+C:\Ben Dec 2018 onwards\Cryptocurrency\Dero stargate\Dero Racers\.mono\temp\bin\Tools\Dero Racers.pdb
+C:\Ben Dec 2018 onwards\Cryptocurrency\Dero stargate\Dero Racers\.mono\temp\obj\Tools\Dero Racers.dll
+C:\Ben Dec 2018 onwards\Cryptocurrency\Dero stargate\Dero Racers\.mono\temp\obj\Tools\Dero Racers.pdb

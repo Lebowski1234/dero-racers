@@ -12,7 +12,7 @@ The game is designed to run on a 64 bit Windows or Linux PC, but it should also 
 All testing was done on Windows 7 and Ubuntu 16.04. 
 
 
-##Quick Start
+## Quick Start
 
 To run the game:
 
@@ -41,6 +41,8 @@ To join the game for the first time:
 * Within a minute (depending on block time), the Player fields should come up and the debug box should display a message confirming you have joined the game! If after a few minutes and several blocks have passed this doesn't happen, just try again. It is likely due to too many calls to the contract by other players. 
 
 * Press the 'Update Car Yard, Open races, My Garage' button. This should populate the game GUI.
+
+The next time the game is run, just press the Start button! No need to join again. 
 
 
 
@@ -93,7 +95,7 @@ Sell a Car:
 * If you want to take a car off the market, select the car for sale in My Garage, and press Cancel Sale.  
 
  
-##Important Notes and Limitations
+## Important Notes and Limitations
 
 The game was put together in a rushed timeframe over about 3 weeks in the evenings and weekends, to meet the competition entry deadline. It has the following limitations (and probably others I have not thought of right now):
 
