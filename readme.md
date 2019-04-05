@@ -2,7 +2,7 @@
 
 Dero Racers is a Blockchain based game written for the Dero Stargate competition! The game involves buying and selling cars for (testnet) Dero, and racing for points and a hallowed position on the game leaderboard!
 
-(https://github.com/Lebowski1234/dero-racers/raw/master/dero-racers-screenshot-50.png)
+![title](https://github.com/Lebowski1234/dero-racers/raw/master/dero-racers-screenshot-50.png)
 
 
 ## Requirements
