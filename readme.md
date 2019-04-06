@@ -164,5 +164,12 @@ dero-wallet-cli-windows-amd64 --rpc-server --wallet-file testnetwallet.db --test
 ```
 
 
- 
+## Contact Details
+
+I plan to update the game and release on the Dero main network, when smart contracts become live. 
+
+My contact details are: thedudelebowski1234@gmail.com
+
+Finally, if you found this useful, any Dero donations are most welcome! dERoSME4c5GNUvPo27NsRFeJPR1FKiYt87g8Gknbm6JU9eL3xRPDs6JijHuVNxVzyFZXg1wxjbh52Hu9gUfWd3Lx5QRNTXvJWZ
+
 
