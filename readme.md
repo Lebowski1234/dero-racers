@@ -22,7 +22,7 @@ All testing was done on Windows 7 and Ubuntu 16.04.
 
 To run the game:
 
-* The Dero Stargate daemon and wallet must be running and synched, with RPC ports open. The wallet must be unlocked. 
+* The Dero Stargate daemon and wallet must be running and fully synched, with RPC ports open. The wallet must be unlocked and have minimum 50 testnet Dero available, preferably >200 as whenever a wallet transaction is made, part of the balance is locked for a short period, then released again. 
 
 * Download the binaries for your platform (either Windows 64 or Linux 64). Or build from source / run from Godot (see below). 
 
@@ -32,10 +32,13 @@ To run the game:
 
 * The game should run!
 
+Note: Instructions are provided at the end of this readme for running the daemon and wallet.
+
+
 
 ## Playing the Game
 
-Important note: After pressing any of the game buttons, if the debug message box comes up with 'Please try again' followed by an error message, keep trying every few seconds until it says 'Transaction sent to wallet'. This type of error is usually due to the daemon refusing the transaction due to a RCT error and is nothing to worry about (nothing to the with Dero Racers). 
+Important note: After pressing any of the game buttons, if the debug message box comes up with 'Please try again' followed by an error message, keep trying every few seconds until it says 'Transaction sent to wallet'. This type of error is usually due to the daemon refusing the transaction due to a RCT error and is nothing to worry about (nothing to do with Dero Racers). 
 
 
 To join the game for the first time:
@@ -60,7 +63,7 @@ Buy a Car:
 
 * Wait until the game status message confirms the purchase, or check the Smart Contract error message box for messages (for example, you have tried to buy two cars within 50 blocks). 
 
-* Press the Update button again. The car shoudl display in My Garage!
+* Press the Update button again. The car should display in My Garage!
 
 
 Enter a Race:
@@ -81,7 +84,7 @@ New Race:
 
 * Enter a starting block height in the future. The height must be no more than 3600 higher than the current block height. 
 
-* Press Create Race! The cost of starting a race is 0.01 testnet Dero. 
+* Press Create Race! The cost of creating a race is 0.01 testnet Dero. 
 
 * The contract owner can limit the number of races a player can start to 1 at a time (the first race must finish before a new race can be created). This is not set right now, but can be changed any time by the contract owner. 
 
@@ -106,7 +109,7 @@ Sell a Car:
 The game was put together in a rushed timeframe over about 3 weeks in the evenings and weekends, to meet the competition entry deadline. It has the following limitations (and probably others I have not thought of right now):
 
 
-* The game runs with a fixed screen resulution of 1600 x 900, which can't be adjusted. Older monitors may not display the game properly. The only fix is go and buy a new monitor! As the game is developed going forward, it will be re-written to work with multiple resolutions the same as most other apps. 
+* The game runs with a fixed screen resolution of 1600 x 900, which can't be adjusted. Older monitors may not display the game properly. The only fix is go and buy a new monitor! As the game is developed going forward, it will be re-written to work with multiple resolutions the same as most other apps. 
 
 * Error catching is not 100% as I ran out of time to do a full review before release. Most common errors with daemon / wallet responses (including daemon / wallet not running) should be handled, however there is a chance that the game will crash when any errors occur that have not come up while testing the game. Please report any errors here on Github, or alternatively DM me in the Dero Discord channel where I can be found (thedudelebowski#1775). 
 
@@ -126,6 +129,40 @@ To build / export binaries, you need to follow the instructions in the Godot doc
 
 
 
+## Running the Dero Stargate Daemon and Wallet
 
 
-Note: Instructions are provided in the other repositories in this Github account for running the daemon and wallet. 
+Get the Dero Stargate binaries here:
+
+[https://git.dero.io/DeroProject/Dero_Stargate_testnet_binaries](https://git.dero.io/DeroProject/Dero_Stargate_testnet_binaries)
+
+
+To run the daemon in Linux:
+
+```
+./derod-linux-amd64 --testnet
+```
+
+To run the wallet in Linux:
+
+```
+./dero-wallet-cli-linux-amd64 --rpc-server --wallet-file testnetwallet.db --testnet
+```
+
+
+
+To run the daemon in Windows:
+
+```
+derod-windows-amd64 --testnet
+```
+
+To run the wallet in Windows:
+
+```
+dero-wallet-cli-windows-amd64 --rpc-server --wallet-file testnetwallet.db --testnet
+```
+
+
+ 
+
