@@ -39,7 +39,7 @@ To run the game:
 
 * The game should run!
 
-Note: Instructions are provided at the end of this readme for running the daemon and wallet.
+Note: Instructions are provided at the end of this readme for running the daemon and wallet, as well as a link to a copy of the Dero Stargate blockchain database file to enable much faster synching for first time users. 
 
 
 ## Playing the Game
@@ -200,6 +200,13 @@ dero-wallet-cli-windows-amd64 --rpc-server --wallet-file testnetwallet.db --test
 ```
 
 
+## Synching
+
+It can take many days to sync the blockchain from scratch, even on the testnet. For faster synching, download a copy of the testnet blockchain database file using the link below, and copy into the Testnet subdirectory, overwriting the existing derod_database.db file. 
+
+[Dero Stargate Blockchain 10 April 2019](https://mega.nz/#!zlsliQLZ!R7V5OvptxSgHmRRqN4wpOZ_-nxVp0cokv2-O7laGdf8)
+
+
 ## Contact Details
 
 I plan to update the game and release on the Dero main network, when smart contracts become live. 
@@ -207,5 +214,4 @@ I plan to update the game and release on the Dero main network, when smart contr
 My contact details are: thedudelebowski1234@gmail.com
 
 Finally, if you found this useful, any Dero donations are most welcome! dERoSME4c5GNUvPo27NsRFeJPR1FKiYt87g8Gknbm6JU9eL3xRPDs6JijHuVNxVzyFZXg1wxjbh52Hu9gUfWd3Lx5QRNTXvJWZ
-
 
