@@ -204,7 +204,7 @@ dero-wallet-cli-windows-amd64 --rpc-server --wallet-file testnetwallet.db --test
 
 It can take many days to sync the blockchain from scratch, even on the testnet. For faster synching, download a copy of the testnet blockchain database file using the link below, and copy into the Testnet subdirectory, overwriting the existing derod_database.db file. 
 
-[Dero Stargate Blockchain 10 April 2019](https://mega.nz/#!zlsliQLZ!R7V5OvptxSgHmRRqN4wpOZ_-nxVp0cokv2-O7laGdf8)
+[Dero Stargate Blockchain 30 April 2019 - block/topo height 507416/572899](https://mega.nz/#!HwsESCjD!irL4W9Mhqb0_XuqAmC5YK8jWYdpinpGAa1YIrUAaScs)
 
 
 ## Contact Details
